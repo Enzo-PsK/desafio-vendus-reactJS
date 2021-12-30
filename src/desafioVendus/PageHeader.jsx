@@ -20,7 +20,7 @@ export default (props) => {
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
-          <a className="navbar-brand" href="../home">
+          <a className="navbar-brand" href="./">
             <img id="header-logo" src="https://raw.githubusercontent.com/Enzo-PsK/desafio-vendus-enzo/main/images/vendus-logo.png"/>
           </a>
           <button
@@ -37,7 +37,7 @@ export default (props) => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="../home">
+                <a className="nav-link active" aria-current="page" href="./">
                   Home
                 </a>
               </li>
