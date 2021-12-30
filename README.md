@@ -1,3 +1,7 @@
+# This App is currently deployed in Netlify
+
+http://desafio-vendus-reactjs.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
