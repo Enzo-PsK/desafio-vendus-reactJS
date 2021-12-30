@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import fetchData from "./queryUtil";
 import "./desafio.css";
 
 export default (props) => {
