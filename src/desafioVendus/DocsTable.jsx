@@ -28,8 +28,8 @@ export default (props) => {
   }, [type, query]);
 
   return (
-    <div>
-      <table className="table">
+    <div className="table-responsive">
+      <table className="table table-hover">
         <TableHead />
         <tbody className="table-body">{rows}</tbody>
       </table>
