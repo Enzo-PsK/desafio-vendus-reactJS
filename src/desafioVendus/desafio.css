@@ -5,6 +5,13 @@ body{
     font-size: 1.4 rem;
 }
 
+/* Aplicar espaço no botão de Filter em dispositivos menores*/
+@media (max-width:990px){
+    #dropdownMenuButton {
+      margin-top: 10px;
+    }
+  }
+
 .secInfos{
     border-bottom: none;
 }
