@@ -42,7 +42,7 @@ export default (props) => {
                 </a>
               </li>
             </ul>
-            <form className="d-flex">
+            <form className="d-flex" autoComplete="off">
               <input
                 onChange={(e)=> {setQuery(e.target.value); handleQueryChange(e.target.value)}}
                 className="form-control me-2"
