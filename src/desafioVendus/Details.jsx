@@ -77,7 +77,7 @@ export default (props) => {
             <td className="secInfos">{data.payments !== undefined? data.payments[0].title: 'Not found'}</td>
           </tr>
           <tr>
-            <td>€{data.payments !== undefined? data.payments[0].amount: 'Not found'}</td>
+            <td>€ {data.payments !== undefined? data.payments[0].amount: 'Not found'}</td>
           </tr>
           <tr>
             <th> Gross Amount:</th>
