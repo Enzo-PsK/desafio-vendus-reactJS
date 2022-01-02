@@ -81,11 +81,11 @@ export default (props) => {
           </tr>
           <tr>
             <th> Gross Amount:</th>
-            <td>€${data.amount_gross}</td>
+            <td>€ {data.amount_gross}</td>
           </tr>
           <tr>
             <th> Net Amount:</th>
-            <td>€${data.amount_net}</td>
+            <td>€ {data.amount_net}</td>
           </tr>
         </tbody>
       </table>
